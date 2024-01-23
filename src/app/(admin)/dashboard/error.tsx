@@ -8,7 +8,7 @@ export interface ErrorComponentProps {
   reset: () => void;
 }
 
-export default function Error({ error, reset }: ErrorComponentProps) {
+export default function ErrorComponent({ error, reset }: ErrorComponentProps) {
   return (
     <div>
       <p>{`Something went wrong. ${error.message}`}</p>
